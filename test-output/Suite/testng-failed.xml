@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="password" value="Castrino@12"/>
+    <parameter name="username" value="9597193160"/>
+    <classes>
+      <class name="org.test5.Sample7">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+          <include name="browserlaunch"/>
+        </methods>
+      </class> <!-- org.test5.Sample7 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
